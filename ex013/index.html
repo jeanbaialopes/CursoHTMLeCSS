@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="../desafios/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!--Importante ressaltar que:
+        -O <p> serve somente para texto, para fazer divisão por blocos devemos sempre utilizar o <div>.
+        -Na definição de pixels no source dentro de picture, não se deve esquecer de colocar o px no final, se não a condição não é verdadeira.
+        -No type, devemos colocar o tipo "image/png", "image/jpg" - ou então simplesmente exclua essa parte, pois não é obrigatória.
+        -->
+        <h1>Imagem Dinâmica</h1>
+        <p> 
+            Tente abrir essa imagem em diferentes dispositivos, ou altere o tamanho da aba do navegador.
+        </p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem Flexivel">
+        </picture>
+        
+        <h1>Reproduzindo Áudio</h1>
+        <p>Reproduzindo áudios.</p>
+        <!--Essa sintaxe significa: Caso o navegador não saiba oque é a tag <audio> mostre a mensagem, ou então, caso o navegador não tenha suporte com nenhuma das mídias abaixo, mostre a mensagem. Mas pelos meus testes, ele ainda mostra o reprodutor de audio, mas sem nenhuma mídia ao invés de mostrar a mensagem.-->
+        <audio preload="metadata" controls autoplay loop>
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+            <source src="midia/guanacast-33.ogg" type="audio/ogg">
+            <source src="midia/guanacast-33.wav" type="audio/wav">
+            <!--Vale anotar que arviso .wav são muito pesados e não são de boa prática para carregamento no site, mas sim para download - quando buscando uma exelente qualidade (geralmente desnecessário).-->
+            <p>
+                Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="application/mpeg">Clique aqui para baixar o arquivo MP3</a>
+            </p>
+        </audio>
+
+</body>
+</html>
