@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to left, #FFEEA9 35%, #FFBF78);
+}
+
+main {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.151);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7B4019;
+    text-shadow: 2px 2px 3px #5f311328;
+    text-align: center;
+}
+
+h2 {
+    color: #c55b14;
+}
+
+p {
+    text-align: justify;
+}
