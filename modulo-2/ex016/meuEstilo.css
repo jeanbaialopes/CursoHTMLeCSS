@@ -34,6 +34,7 @@ header {
     width: 70cqmax;
     margin: auto;
     margin-top: -26px;
+    padding-top: -15px;
 }
 
 .title {
@@ -97,7 +98,83 @@ header {
     margin: 40px auto;
 }
 
-.content h1 {
-    margin: 40px auto;
+.content h1, h2 {
+    margin: 20px;
+    margin-bottom: 0px;
 }
 
+.content p {
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.centralized {
+    text-align: center;
+}
+
+.comment {
+    margin-top: 0px;
+    margin: 0;
+    font-size: small;
+    opacity: 0.8;   
+}
+
+.bloco {
+    position: relative;
+    padding-left: 5px;
+    margin: 20px 0;
+}
+
+.bloco::before {
+    content: "";
+    position: absolute;
+    left: 25px;        
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #bde8f5;
+}
+
+.lowVerticalMargin, .lowVerticalMargin p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.bigTerm {
+    font-size: large;
+    margin: 0;
+    min-height: 1.8em; 
+    font-weight: bold;
+}
+
+.horizontalAttach {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+.horTerm {
+    width: max-content;
+    text-align: center;
+    padding: 0 6px;
+}
+
+
+.comment {
+    margin: 4px 0 0;
+    font-size: small;
+    opacity: 0.8;
+}
+
+.horizontalAttach::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #bde8f5;
+    transform: translateX(-50%);
+}
