@@ -150,31 +150,35 @@ header {
 .horizontalAttach {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    position: relative;
+    align-items: stretch;
 }
-
 
 .horTerm {
     width: max-content;
     text-align: center;
-    padding: 0 6px;
+    padding: 0;
 }
 
+.divider {
+    width: 2px;
+    background: #ffffff;
+    margin: 0;
+}
 
 .comment {
-    margin: 4px 0 0;
+    margin: 0;
     font-size: small;
     opacity: 0.8;
 }
 
-.horizontalAttach::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 2px;
-    background: #bde8f5;
-    transform: translateX(-50%);
+.italic {
+    font-style: italic;
+     
+}
+
+.boxShadow {
+    display: inline-block;
+    background-color: #4b4b4b73;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    padding: 1px 1px;
 }
