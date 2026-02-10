@@ -110,6 +110,7 @@ header {
 
 .centralized {
     text-align: center;
+    justify-content: center;
 }
 
 .comment {
@@ -177,8 +178,16 @@ header {
 }
 
 .boxShadow {
-    display: inline-block;
+    display: block;              
+    width: max-content;          
+    margin: 10px auto;           
     background-color: #4b4b4b73;
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
-    padding: 1px 1px;
+    padding: 4px 8px;
+    margin: 10px auto !important;  
+}
+
+.imageMedium {
+    width: 200px;
+    height: auto;
 }
