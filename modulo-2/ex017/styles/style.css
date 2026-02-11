@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-* h1, h2 {
+* h1, h2, h3 {
     font-family: "Atkinson Hyperlegible Mono", sans-serif;
 }
 
@@ -64,9 +64,16 @@
 }
 
 .textBlock h3 {
-    z-index: 0;
-    text-shadow: black 10px 10px 10px;
+    text-align: left;
+    text-shadow: black 1px 1px 5px;
+    font-size: 1.5em;
 
+    padding-bottom: 0px;
+    background-color: #3e2370;
+    margin-right: 30px;
+    border-radius: 5px;
+    
+    z-index: 0;
 }
 
 .textBlock p {
@@ -80,7 +87,7 @@
 }
 
 .commentBox {
-    font-size: 1.3ch;
+    font-size: 0.8em;
     font-style: italic;
     text-align: justify;
     margin: auto;
@@ -88,4 +95,12 @@
     margin-right: 10px;
     padding: 2px;
     border-radius: 1px;
+}
+
+.longCitation {
+    text-align: justify;
+    font-size: 0.9em;
+
+    margin-left: 35vw;
+    margin-right: 15vw;
 }
