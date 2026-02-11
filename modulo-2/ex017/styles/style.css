@@ -63,6 +63,12 @@
     border-radius: 5px;
 }
 
+.textBlock h3 {
+    z-index: 0;
+    text-shadow: black 10px 10px 10px;
+
+}
+
 .textBlock p {
     background-color: #3e2370;
     z-index: 0;
