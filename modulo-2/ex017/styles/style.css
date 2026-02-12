@@ -87,14 +87,27 @@
 }
 
 .commentBox {
-    font-size: 0.8em;
+    position: relative;
+    display: block;
+
+    font-size: 0.8rem;
     font-style: italic;
     text-align: justify;
-    margin: auto;
-    margin-left: 20px;
-    margin-right: 10px;
+
+    margin-right: 20px;
     padding: 2px;
+    padding-right: 15px;
     border-radius: 1px;
+}
+
+.commentBox::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 5%;
+    width: 3px;
+    height: 90%;
+    background: #ccc;
 }
 
 .longCitation {
@@ -104,3 +117,26 @@
     margin-left: 35vw;
     margin-right: 15vw;
 }
+
+.horLine {
+    position: relative;
+}
+
+.horLine::before {
+    content: "";
+
+    display: block;
+
+    height: 1px;
+    margin-top: 5px;
+    margin-right: 70vw;
+    margin-bottom: 5px;
+    
+    background: #ccc;
+}
+
+.horLine:last-child::before {
+    display: none;
+}
+
+
