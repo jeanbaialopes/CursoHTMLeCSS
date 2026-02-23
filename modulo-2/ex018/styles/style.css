@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'AbvTheSkyScpt';
+    src: url('../../../fonts/AboveTheSkyScript.otf') format(opentype);
+
+    /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - trutype-aat (Apple Advanced Typography)
+        - svg
+    /*
+}
