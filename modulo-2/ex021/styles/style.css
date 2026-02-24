@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    border: 10px solid darkslategray;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+
+    padding: 10px 10px 10px 10px;
+    padding: 10px;
+
+    padding: 10px 20px;
+    /* assim ele aplica o primeiro em cima e embaixo, e o segundo nos lados */
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+
+    outline: 5px dashed salmon;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    margin: 10px 10px 10px 10px;
+    margin: 10px;
+
+    margin: 20px auto;
+
+    /* margin: auto; */
+}
+
+a {
+    border: 5px dotted red;
+}

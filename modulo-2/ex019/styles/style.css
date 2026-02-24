@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* 
+css - html
+# = id
+. = class 
+*/
+
+body {
+    background-color: #A5C89E;
+}
+
+
+h1 {
+    color: #60683b;
+    text-shadow: 1px  black;
+}
+
+h1#main {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #16410d;
+}
+
+.basic {
+    color: #3f6581;
+    text-indent: 10px;
+}
+
+.intermediate {
+    color: #413261;
+    text-indent: 10px;
+}
+
+.advanced {
+    color: #883b3b;
+    text-indent: 10px;
+}

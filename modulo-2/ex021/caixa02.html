@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../desafios/favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+
+    <style>
+        header {
+
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px auto;
+        }
+        header h1 {
+            text-align: center;
+        }
+        header nav:hover > a {
+            display: block;
+            color: purple;
+        }
+        header nav > a{
+            display: none;
+            text-decoration: none;
+            color: purple;
+            padding: -10px 0px;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: dimgray;
+            color: rgb(54, 50, 50);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            margin: 10px auto;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+        }
+        section#tags {
+            text-align: justify;
+            padding-left: 10px;
+        }
+        section#tags a::after {
+            margin-right: 10px;
+        }
+        section#tags a {
+            padding: auto 10px;
+            text-decoration: none;
+            color: black;
+        }
+        section h2{
+            text-indent: 10px;
+        }
+        article {
+            text-indent: 30px;
+            padding: 0px 5px;
+            margin: auto auto auto 0px;
+        }
+        aside {
+            text-indent: 0px;
+            font-style: italic;
+            padding: -10px 5px 0px 5px;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            Navigation Bar
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="tags">
+            <p>
+                <a href="#">Sports</a> 
+                <a href="#">Politics</a> 
+                <a href="#">Tecnology</a> 
+                <a href="#">Science</a>
+            </p>
+        </section>
+        <section id="news">
+            <h2>News</h2>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci officiis, quisquam consectetur minima est facilis vel vitae animi quam? Odit, dolorum nulla! Beatae, ex esse quasi necessitatibus officiis tenetur.
+                </p>
+                <aside>
+                    Wrote By: Lorem ipsum dolor.
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Developed By Jean</p>
+    </footer>
+</body>
+</html>
