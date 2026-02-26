@@ -12,6 +12,16 @@
     margin-bottom: 0;
 }
 
+:root {
+    --cor0: rgb(134, 255, 140);
+    --cor1: rgb(69, 160, 104);
+    --cor2: green;
+    --cor3: rgb(0, 97, 0);
+
+    --corTexto0: white;
+    --corTexto1: black;
+}
+
 * > main a::after {
     content: '🔗';
     font-size: smaller;
@@ -77,7 +87,7 @@ main {
 
     border-radius: 5px;
 
-    max-width: 80%;
+    max-width: 1000px;
     padding: 0 10px;
     padding-top: 1px;
     padding-bottom: 5px;
