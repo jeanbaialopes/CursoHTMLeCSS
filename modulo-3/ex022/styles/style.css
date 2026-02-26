@@ -37,3 +37,47 @@ footer a:hover {
 
     border-radius: 5px;
 }
+
+body#background-2 {
+    background-image: url(../images/wallpaper001.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+body#background-3 div.block {
+    background-image: url(../images/wallpaper003.jpg);
+
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px; 
+
+} 
+
+body#background-3 div#b1 {
+    background-position: left top;
+} 
+
+body#background-3 div#b2 {
+    background-position: left center;
+}
+
+body#background-3 div#b3 {
+    background-position: right bottom;
+}
+
+body#background-3 div#b4 {
+    background-position: center center;
+}
+
+
+body#background-4 {
+    height: 99vh;
+
+    border: 1px dotted black;
+
+    background-image: url(../images/pattern003.png); 
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position:  center center;
+}
