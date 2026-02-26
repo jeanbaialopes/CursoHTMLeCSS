@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "titulo";
+    src: url();
+}
+
+* > a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+* > main a::after {
+    content: '🔗';
+    font-size: smaller;
+}
+
+strong {
+    color: green;
+    font-weight: bold;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+
+    background: linear-gradient(rgb(69, 160, 104) 50%, rgba(0, 0, 0, 0.795));
+    color: white;
+
+    text-align: center;
+
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.452);
+}
+
+header > h1 {
+    margin: 0px auto;
+}
+
+header > p {
+    max-width: 450px;
+    margin: 10px auto;
+
+    text-align: center;
+}
+
+header > nav  {
+    text-align: left;
+
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+header > nav > a {
+    text-decoration: none;
+    color: white;
+
+    margin-right: 10px;
+}
+
+body {
+    background-color: green;
+    margin: auto;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.452);
+
+    border-radius: 5px;
+
+    max-width: 80%;
+    padding: 0 10px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    
+}
+
+main h1, h2{
+    padding-left: 10px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 40px;
+
+    padding-bottom: 5px;
+}
+
+.imageFull {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.imageSmaller {
+    max-height: 125px;
+}
+
+.extra-title {
+    padding: 4px;
+    background-color: green;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section#extra {
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    background-color: rgb(134, 255, 140);
+}
+
+section#extra article > p {
+    max-width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+section#extra {
+    background-color: rgb(134, 255, 140);
+    color: black;
+    max-width: 80%;
+    text-indent: 30px;
+
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.452);
+
+}
+
+.double-lists {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+
+    margin: auto;
+
+    background-color: unset;
+}
+
+.double-lists ul {
+    margin: 0px auto;
+    background-color: unset;
+    max-width: fit-content;
+    padding: 10px 10px;
+
+    font-size: small;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 15px;
+}
+
+ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: green;
+}
+
+footer {
+    text-align: center ;
+    
+    margin: 0px;
+    padding: 1px 0; 
+    margin-top: 10px;
+
+    background-color: rgb(0, 97, 0);
+    color: white;
+}
