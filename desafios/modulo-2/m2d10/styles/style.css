@@ -193,3 +193,14 @@ footer {
     background-color: rgb(0, 97, 0);
     color: white;
 }
+
+.video-wrapper {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+}
