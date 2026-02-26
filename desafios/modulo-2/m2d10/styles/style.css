@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "titulo";
-    src: url();
+    font-family: "idroid";
+    src: url(../sources/fontes/idroid.otf) format(opentype);
 }
 
 * > a {
@@ -60,12 +60,17 @@ header > nav > a {
     margin-right: 10px;
 }
 
+header nav > a:hover {
+    box-shadow: 1px 1px 1px 1px black;
+}
+
 body {
     background-color: green;
     margin: auto;
 }
 
 main {
+
     background-color: rgb(255, 255, 255);
 
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.452);
@@ -82,6 +87,16 @@ main {
 
 main h1, h2{
     padding-left: 10px;
+    font-family: 'idroid';
+    color: green;
+}
+
+main h1 {
+    font-size: 3.5ch;
+}
+
+main h2 {
+    background: linear-gradient(to right, rgba(106, 190, 106, 0.479), white); 
 }
 
 article > p {
@@ -117,15 +132,15 @@ section#extra {
 }
 
 section#extra article > p {
-    max-width: 90%;
     margin: auto;
     text-align: justify;
+    padding: 10px;
 }
 
 section#extra {
     background-color: rgb(134, 255, 140);
     color: black;
-    max-width: 80%;
+    max-width: 100%;
     text-indent: 30px;
 
     box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.452);
