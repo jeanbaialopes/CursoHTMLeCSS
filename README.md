@@ -43,7 +43,7 @@ Os arquivos estão organizados por módulos e projetos. Para ver um exemplo de c
 ## Demo/Live
 Os projetos desenvolvidos durante o curso, podem ser acessados diretamente através dos links abaixo:
 
-*   [**Cordel Moderno:**](https://github.com/jeanbaialopes/projeto-cordel-moderno)
+*   [**Cordel Moderno**](https://github.com/jeanbaialopes/projeto-cordel-moderno)
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
@@ -94,7 +94,7 @@ The files are organized by modules and projects. To see an example of how the co
 ## Demo/Live
 The projects developed during the course, can be accessed directly via the links below:
 
-*   [**Cordel Moderno:**](https://github.com/jeanbaialopes/projeto-cordel-moderno)
+*   [**Cordel Moderno**](https://github.com/jeanbaialopes/projeto-cordel-moderno)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
