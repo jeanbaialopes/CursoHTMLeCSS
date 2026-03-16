@@ -50,8 +50,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-## Autor
-*   **Jean Baia Lopes**
+👤 Autor
+Desenvolvido por Jean Baia Lopes.
 
 
 
@@ -100,5 +100,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-## Author
-*   **Jean Baia Lopes**
+👤 Author
+Developed by Jean Baia Lopes.
