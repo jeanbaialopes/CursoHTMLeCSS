@@ -9,7 +9,7 @@
 # Português
 
 ## Sobre o Projeto
-Este repositório compila os exercícios e projetos desenvolvidos durante o curso de HTML 5 e CSS 3 oferecido pelo Curso em Vídeo (https://www.cursoemvideo.com). O objetivo é documentar o progresso e consolidar o aprendizado em tecnologias fundamentais para o desenvolvimento web, como HTML5 e CSS3, através de exemplos práticos e projetos guiados.
+Este repositório compila os exercícios e projetos desenvolvidos durante o curso de HTML 5 e CSS 3 oferecido pelo [Curso em Vídeo](https://www.cursoemvideo.com). O objetivo é documentar o progresso e consolidar o aprendizado em tecnologias fundamentais para o desenvolvimento web, como HTML5 e CSS3, através de exemplos práticos e projetos guiados.
 
 ## Tecnologias Utilizadas
 As seguintes tecnologias foram utilizadas no desenvolvimento e estudo deste projeto:
@@ -41,7 +41,7 @@ Este projeto consiste em arquivos estáticos de HTML e CSS, portanto, não reque
 Os arquivos estão organizados por módulos e projetos. Para ver um exemplo de como os conceitos são aplicados, navegue pelas pastas e abra os arquivos HTML correspondentes. Cada arquivo representa uma etapa ou um projeto específico do curso.
 
 ## Demo/Live
-Um dos projetos desenvolvidos durante o curso, o "Cordel Moderno", pode ser acessado diretamente através do link abaixo:
+Os projetos desenvolvidos durante o curso, podem ser acessados diretamente através dos links abaixo:
 
 *   **Cordel Moderno:** [https://github.com/jeanbaialopes/projeto-cordel-moderno](https://github.com/jeanbaialopes/projeto-cordel-moderno)
 
@@ -91,7 +91,7 @@ This project consists of static HTML and CSS files, therefore, it does not requi
 The files are organized by modules and projects. To see an example of how the concepts are applied, navigate through the folders and open the corresponding HTML files. Each file represents a specific stage or project from the course.
 
 ## Demo/Live
-One of the projects developed during the course, "Cordel Moderno", can be accessed directly via the link below:
+The projects developed during the course, can be accessed directly via the links below:
 
 *   **Cordel Moderno:** [https://github.com/jeanbaialopes/projeto-cordel-moderno](https://github.com/jeanbaialopes/projeto-cordel-moderno)
 
